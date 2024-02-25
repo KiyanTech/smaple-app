@@ -10,7 +10,7 @@ public class MathSample {
 	}
 	public static int sub(int a,int b) {
 		
-		return a-b;
+		return a/b;
 	}
 	public static void main(String ...arg) {
 		
