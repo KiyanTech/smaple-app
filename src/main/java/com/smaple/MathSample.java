@@ -9,8 +9,10 @@ public class MathSample {
 		return a+b;
 	}
 	public static int sub(int a,int b) {
-		
-		return a-b;
+		if(a>b) {
+			return a-b;
+		}
+		return b-a;
 	}
 	public static void main(String ...arg) {
 		
